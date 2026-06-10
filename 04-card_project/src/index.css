@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  font-family:Helvetica, sans-serif;
+}
+.parent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.card{
+  flex: 1 1 300px; 
+  max-width: 300px;
+  min-width: 250px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top{
+  
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.top img{
+  height: 40px;
+  width: 40px;
+  border: 1px solid rgb(146, 146, 146);
+  border-radius: 50%;
+  padding: 5px;
+  object-fit: cover;
+ margin-bottom: 20px;
+ 
+}
+
+.top button{
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+}
+
+.center{
+  margin-bottom: 60px;
+
+}
+.center div{
+ display: flex;
+}
+.center div h4{
+ margin:5px 10px 5px 0;
+ background-color: #e3e3e3;
+ padding: 2px 5px 2px 5px;
+ border-radius: 3px;
+}
+
+.center h3 span{
+  color: #a7a7a7;
+  font-size: .8rem;
+  
+}
+
+.center h2 {
+ margin: 5px 0  5px 0;
+ 
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(187, 187, 187);
+  padding-top: 10px;
+}
+.bottom button{
+  height: 30px;
+  padding: 0 5px 0 5px;
+  border: none;
+  border-radius: 4px;
+  background-color: black;
+  color: white;
+}

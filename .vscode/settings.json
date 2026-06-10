@@ -1,0 +1,5 @@
+{
+    "editor.inlineSuggest.experimental.showOnSuggestConflict": "always",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingComments": "always"
+}
