@@ -97,7 +97,7 @@ const App = () => {
                         </div>
 
                           <button 
-                          onClick={(e) =>{
+                          onClick={() =>{
                             deleteNote(idx)
                           }}
                           className='w-full bg-red-500 rounded-2xl hover:bg-red-400 cursor-pointer mt-2 active:scale-95'>Delete
